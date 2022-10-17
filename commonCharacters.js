@@ -12,10 +12,21 @@
 
 
 
- var commonCharacters = function(string1, string2) {
-    // TODO: Your code here!
-    
-  }
-  
-  
  
+  var commonCharacters = function(string1, string2) {
+    // TODO: Your code here!
+    var result
+    
+    for(var i=0;i<string1.length;i++){{
+      for(var j=0;j<string2.length;j++){
+        if(string1[i]===string2[j] && result.indexof(string1[i])===-1){
+          result = result + string1[i];
+        }
+    }
+  }
+  }
+  return result
+}
+
+
+  
